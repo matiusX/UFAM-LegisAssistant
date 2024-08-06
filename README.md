@@ -25,6 +25,9 @@ Facilitar o acesso às informações contidas na legislação acadêmica da UFAM
 - Essa base contém os textos da legislação, além de perguntas e respostas sobre a mesma
 - Para mais informações sobre a base desenvolvida, [consulte aqui](https://huggingface.co/datasets/matiusX/legislacao-ufam)
 
+![Banco de dados](indexacao.png)
+Pipeline de indexação dos documentos e criação do banco de dados
+
 ## Modelo
 - Foi feito o ajuste fino do modelo llama3 utilizando qlora com alpha==16
 - Para mais informações do modelo desenvolvido, [consulte aqui](https://huggingface.co/matiusX/lamma-legis-ufam)
