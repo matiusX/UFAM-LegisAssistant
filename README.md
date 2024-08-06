@@ -35,12 +35,25 @@ Facilitar o acesso às informações contidas na legislação acadêmica da UFAM
 - - Selecionar pergunta da base de teste -> selecionar chunks -> passar chunks e pergunta no prompt -> comparar com a label de resposta
 
 ## Avaliação
+| Métrica               | f1 score               | Precision             | Recall                 | Explicação |
+|-----------------------|------------------------|-----------------------|------------------------|------------------------|
+| **ROUGE-1**           | 0.28797    | 0.25518  | 0.34140     | Mede a sobreposição de unigramas (palavras individuais) entre a resposta gerada e a resposta de referência |
+| **ROUGE-2**           | 0.12998    | 0.11259  | 0.16085    | Mede a sobreposição de bigramas (pares de palavras consecutivas) entre a resposta gerada e a resposta de referência |
+| **ROUGE-L**           | 0.25525    | 0.22636  | 0.30259    | Mede a sobreposição das subsequências mais longas (LCS - Longest Common Subsequence) entre a resposta gerada e a resposta de referência | 
+
+
+| Métrica               | valor                | Explicação |
+|-----------------------|------------------------|-----------------------|
+**BLEU Score** | 0.082019 | BLEU é uma métrica que avalia a qualidade do texto traduzido ou gerado comparando-o com um ou mais textos de referência. A pontuação BLEU considera a precisão dos n-gramas, ajustando para a brevidade, para evitar que frases curtas tenham pontuações artificialmente altas
+
 
 ## Os entregáveis
 1. Relatório de Pré-processamento -> pode ser encontrado em [base de dados comentada](https://huggingface.co/datasets/matiusX/legislacao-ufam)
 2. Base de Dados Sintética -> pode ser encontrado em [base de dados comentada](https://huggingface.co/datasets/matiusX/legislacao-ufam)
 3. Modelo treinado -> [consulte aqui](https://huggingface.co/matiusX/lamma-legis-ufam) (o arquivo "trabalho_final_nlp_treino (1).ipynb" contém o código fonte)
 5. Sistema de RAG Implementado -> este repositório
+
+*Os relatórios solicitados são os READMEs dos respectivos repositórios*
 
 ## Próximos passos
 1. Melhorar avaliação do sistema de RI (gerar os pares (resposta, documento relevante)). Dessa forma, posso avaliar a parte do retrieval de documentos melhor 
