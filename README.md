@@ -37,6 +37,9 @@ Pipeline de indexação dos documentos e criação do banco de dados
 - Pipeline de busca
 - - Selecionar pergunta da base de teste -> selecionar chunks -> passar chunks e pergunta no prompt -> comparar com a label de resposta
 
+![Banco de dados](retrieval.png)
+Pipeline de retrieval
+
 ## Avaliação
 | Métrica               | f1 score               | Precision             | Recall                 | Explicação |
 |-----------------------|------------------------|-----------------------|------------------------|------------------------|
