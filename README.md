@@ -41,3 +41,7 @@ Facilitar o acesso às informações contidas na legislação acadêmica da UFAM
 2. Base de Dados Sintética -> pode ser encontrado em [base de dados comentada](https://huggingface.co/datasets/matiusX/legislacao-ufam)
 3. Modelo treinado -> [consulte aqui](https://huggingface.co/matiusX/lamma-legis-ufam) (o arquivo "trabalho_final_nlp_treino (1).ipynb" contém o código fonte)
 5. Sistema de RAG Implementado -> este repositório
+
+## Próximos passos
+1. Melhorar avaliação do sistema de RI (gerar os pares (resposta, documento relevante)). Dessa forma, posso avaliar a parte do retrieval de documentos melhor 
+2. Avaliação Human-in-the-loop
