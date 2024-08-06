@@ -34,11 +34,10 @@ Facilitar o acesso às informações contidas na legislação acadêmica da UFAM
 - Pipeline de busca
 - - Selecionar pergunta da base de teste -> selecionar chunks -> passar chunks e pergunta no prompt -> comparar com a label de resposta
 
-##Avaliação
+## Avaliação
 
 ## Os entregáveis
-1. Relatório de Pré-processamento -> pode ser encontrado em [consulte aqui](https://huggingface.co/datasets/matiusX/legislacao-ufam)
-2. Base de Dados Sintética -> pode ser encontrado em [consulte aqui](https://huggingface.co/datasets/matiusX/legislacao-ufam)
-3. Modelo treinado -> [consulte aqui](https://huggingface.co/matiusX/lamma-legis-ufam)
-   3.1 -> arquivo "trabalho_final_nlp_treino (1).ipynb"
+1. Relatório de Pré-processamento -> pode ser encontrado em [base de dados comentada](https://huggingface.co/datasets/matiusX/legislacao-ufam)
+2. Base de Dados Sintética -> pode ser encontrado em [base de dados comentada](https://huggingface.co/datasets/matiusX/legislacao-ufam)
+3. Modelo treinado -> [consulte aqui](https://huggingface.co/matiusX/lamma-legis-ufam) (arquivo "trabalho_final_nlp_treino (1).ipynb")
 5. Sistema de RAG Implementado -> este repositório
