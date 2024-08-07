@@ -3,9 +3,17 @@ Este projeto visa desenvolver uma LLM (Large Language Model) capaz de responder 
 
 Para mais informações sobre as normas acadêmicas da UFAM, acesse [este link](https://proeg.ufam.edu.br/normas-academicas/57-proeg/146-legislacao-e-normas.html).
 
-## Objetivo
+## Estrutura de arquivos
 
-Facilitar o acesso às informações contidas na legislação acadêmica da UFAM, permitindo que alunos, professores e funcionários obtenham respostas rápidas e precisas para suas dúvidas.
+├── legislacao -> banco de dados vetorial 
+│   ├── chroma.sqlite3
+│   └── ....
+├── Trabalho Final de PLN (1).pdf
+├── example.env -> exemplod de .env
+├── final.parquet -> arquivo contendo: pergunta | resposta | contexto | resposta_gerada_pelo_modelo
+├── indexador.py -> código que cria e indexa arquivos no banco de dador
+├── rag_eval.ipynb -> avaliação da qualidade das respostas geradas
+└── rag_sys.ipynb -> código fonte do sistema de rag
 
 ## Exemplos de Uso (respostas geradas pelo sistema desenvolvido)
 
